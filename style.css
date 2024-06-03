@@ -1,0 +1,136 @@
+*{
+    font-family: 'Montserrat';
+}
+/*Navigation pange*/
+.header{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+#logo{
+    margin-left: 20px;
+    cursor: pointer;
+    font-weight: 500;
+}
+.navigation{
+    display: flex;
+    text-align: right;
+}
+.navigation li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.lien{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+}
+.lien:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+.sub-header li{
+    display: inline-block;
+}
+.attribute, .location{
+    color: black;
+    text-decoration: none;
+}
+.location::after{
+    content: ">";
+}
+.attribute::after{
+    content: "x ";
+    font-size: 10px;
+    vertical-align: super;
+}
+
+/*Sizing*/
+
+.container{
+    margin: 0 auto;
+}
+.spacer{
+    max-width: 1200px;
+    margin: auto;
+}
+.main{
+    background-color: #ffc200;
+}
+/*Jumbotron section*/
+.jumbotron{
+    background-color: #fff;
+    max-width: 1200px;
+    margin-left: 50px;
+}
+.jumbotron h2{
+    font-size: 50px;
+    margin-bottom: 70px;
+}
+.jumbotron h2 span{
+    color: #ffc200;
+}
+.jumbotron p{
+    text-shadow: 0 0;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+}
+
+/*Banner section*/
+.banner{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Expertise section*/
+.cards{
+    background-color: #ffc200;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#expertise{
+    padding: 20px; 
+    background-color: #ffc200;
+    margin: 0;
+    text-align: center;
+}
+.image1{
+    max-width: 50%;
+}
+.image2{
+    max-width: 30%;
+}
+.image3{
+    max-width: 80%;
+}
+.image{
+    margin: 20px;
+    cursor: pointer;
+}
+/*Footer*/
+.footer{
+    padding: 60px 0px;
+    background-color: #000;
+    color: #fff;
+}
+.footer h3{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.footer p{
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
